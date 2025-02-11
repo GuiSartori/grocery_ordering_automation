@@ -3,6 +3,13 @@ import os
 
 # Function for Log Creation
 def log_create(nome_arquivo_py):
+    '''
+    Creates a log file with a timestamped name in a directory specific to the script.
+
+    This function generates a log file inside a folder named after the script (nome_arquivo_py).
+    The log file's name is based on the current date and time, ensuring uniqueness.
+    The folder is created if it does not already exist.
+    '''
     global nome_arquivo_log
     # Get the current date and time
     datetime_atual = datetime.now()
@@ -22,6 +29,12 @@ def log_create(nome_arquivo_py):
 
 # Function for append in log
 def log_append(message):
+    '''
+    Appends a message with a timestamp to the previously created log file.
+
+    This function adds a log entry to the file created by `log_create`. Each entry includes
+    a timestamp and the provided message, ensuring that logs are organized and easy to read.
+    '''
     global nome_arquivo_log
     # Format Datetime to Timestamp on Log
     datetime_stamp = datetime.now().strftime("%m/%d/%Y %I:%M:%S %p")

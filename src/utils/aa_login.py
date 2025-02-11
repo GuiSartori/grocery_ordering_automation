@@ -3,7 +3,15 @@ import time
 from utils.custom_log import log_append
 
 def login_aa(driver,login,senha):
-    
+    '''
+    Performs the login process on the Automation Anywhere (AA) Community website.
+
+    This function automates the login process by:
+    - Accepting cookies.
+    - Clicking the "Community login" button.
+    - Filling in the email and password fields.
+    - Submitting the login form.
+    '''
     time.sleep(3) # Waits the button to accept the cookies
     
     # Clicks the Accept All Cookies button
@@ -21,13 +29,16 @@ def login_aa(driver,login,senha):
     email_field = driver.find_element(By.XPATH, '//input[@placeholder="*Email"]')
     email_field.send_keys(login)
 
+    # Click the Next button
     next_btn = driver.find_element(By.XPATH, '//button[text()="Next"]')
     next_btn.click()
-
     time.sleep(1)
+    
+    # Fill in the password field
     password_field = driver.find_element(By.XPATH, '//input[@placeholder="Password"]')
     password_field.send_keys(senha)
 
+    # Click the Log in button
     log_in_btn = driver.find_element(By.XPATH, '//button[text()="Log in"]')
     log_in_btn.click()
     log_append("Login no Automation Anywhere Community realizado com sucesso")
