@@ -25,6 +25,17 @@ login = os.getenv('login')
 senha = os.getenv('senha')
 
 def main():
+    '''
+    Executes the Online Grocery Ordering RPA Challenge.
+
+    This function creates a log file, initializes the Selenium WebDriver (Edge), 
+    logs into the Automation Anywhere Community using credentials from a .env file, 
+    checks if the CSV file is present (downloads if not), loads data from the CSV file, 
+    adds items to an online shopping list, agrees to terms and conditions, 
+    submits the order, and captures the results of the execution.
+    
+    Logs are created at each significant step, and exceptions are caught and logged.
+    '''
     
     # Tries to create the log, open the web browser and start the RPA Challenge
     try:
