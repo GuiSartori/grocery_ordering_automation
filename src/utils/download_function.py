@@ -18,7 +18,8 @@ def download_csv(driver):
     print(link)
 
     # Directory where the file will be saved
-    csv_directory = r'C:\Users\guilh\Documents\Compass\Sprint 4\sprint4_atividade4_Guilherme_Sartori\python\data'
+    csv_directory = r'C:\Users\guilh\Documents\Compass\Sprint 4\sprint4_atividade4_Guilherme_Sartori\online_grocery_ordering\python\data'
+    
     csv_file_name = 'shopping-list.csv'
 
     # Downloads the file

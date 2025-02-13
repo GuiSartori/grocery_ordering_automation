@@ -2,11 +2,11 @@ from datetime import datetime
 import os
 
 # Function for Log Creation
-def log_create(nome_arquivo_py):
+def log_create():
     '''
-    Creates a log file with a timestamped name in a directory specific to the script.
+    Creates a log file with a timestamped name in the "logs" directory.
 
-    This function generates a log file inside a folder named after the script (nome_arquivo_py).
+    This function generates a log file inside a folder named "logs".
     The log file's name is based on the current date and time, ensuring uniqueness.
     The folder is created if it does not already exist.
     '''
@@ -15,13 +15,13 @@ def log_create(nome_arquivo_py):
     datetime_atual = datetime.now()
 
     # Creates the folder where the log will be stored
-    os.makedirs(f"logs/{nome_arquivo_py}", exist_ok=True)
+    os.makedirs(f"logs", exist_ok=True)
 
     # Format the date of log name
     data_hora_formatada = datetime_atual.strftime("%d-%m-%y_%H-%M-%S")
 
     # Save the name of the log file
-    nome_arquivo_log = f"logs/{nome_arquivo_py}/{data_hora_formatada}.txt"
+    nome_arquivo_log = f"logs/{data_hora_formatada}.txt"
 
     # Create log with Datetime as a file name
     log = open(nome_arquivo_log, "a")

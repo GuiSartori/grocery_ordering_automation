@@ -1,7 +1,6 @@
 # Import the libraries needed to find elements and manipulate the browser
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import requests
 import time
 import os
 from dotenv import load_dotenv
@@ -30,11 +29,8 @@ def main():
     # Tries to create the log, open the web browser and start the RPA Challenge
     try:
 
-        # Get the name of the python file that is being executed to create the log folder
-        nome_arquivo_py = os.path.basename(__file__).replace('.py', '')
-
         # Creates the log
-        log_create(nome_arquivo_py)
+        log_create()
         log_append("Início do desafio Online Grocery Ordering")
 
         # Initializes the driver (in this case, Edge)

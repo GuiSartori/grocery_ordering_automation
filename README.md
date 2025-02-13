@@ -29,8 +29,11 @@ OnlineGroceryOrderingAutomation/
 │   ├── utils/
 │   │   ├── aa_login.py
 │   │   ├── custom_log.py
-│   │   └── data_utils.py
+│   │   ├── data_utils.py
+│   │   ├── custom_log.py
+│   │   └── msedgedriver.exe
 │   └── main.py
-└── .env
-└── .gitignore
+├── .env
+├── .gitignore
+└── .README.md
 ```

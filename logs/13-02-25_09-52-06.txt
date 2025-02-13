@@ -1,0 +1,21 @@
+(02/13/2025 09:52:06 AM) - Início do desafio Online Grocery Ordering
+(02/13/2025 09:52:08 AM) - Navegador inicializado na página do desafio Online Grocery Ordering 
+(02/13/2025 09:52:11 AM) - Realizado click no botão Accept All Cookies
+(02/13/2025 09:52:16 AM) - Realizado click no botão de login no AA Community
+(02/13/2025 09:52:20 AM) - Login no Automation Anywhere Community realizado com sucesso
+(02/13/2025 09:52:23 AM) - Iniciando preenchimento da lista de compras
+(02/13/2025 09:52:23 AM) - Arquivo csv não encontrado
+(02/13/2025 09:52:25 AM) - Arquivo baixado e salvo em: C:\Users\guilh\Documents\Compass\Sprint 4\sprint4_atividade4_Guilherme_Sartori\online_grocery_ordering\python\data\shopping-list.csv
+(02/13/2025 09:52:25 AM) - Dados do arquivo csv carregados com sucesso
+(02/13/2025 09:52:25 AM) - Oatmeal adcionado à lista de compras com sucesso
+(02/13/2025 09:52:25 AM) - Granola adcionado à lista de compras com sucesso
+(02/13/2025 09:52:25 AM) - Strawberries adcionado à lista de compras com sucesso
+(02/13/2025 09:52:25 AM) - Macaroni and Cheese adcionado à lista de compras com sucesso
+(02/13/2025 09:52:25 AM) - Pizza adcionado à lista de compras com sucesso
+(02/13/2025 09:52:25 AM) - Broccoli adcionado à lista de compras com sucesso
+(02/13/2025 09:52:26 AM) - Chicken Nuggets adcionado à lista de compras com sucesso
+(02/13/2025 09:52:26 AM) - Realizado o click para confirmar a aceitação dos termos de consentimento
+(02/13/2025 09:52:26 AM) - Realizado o click no botão de Submit Order
+(02/13/2025 09:52:29 AM) - Tarefa realizada com sucesso
+(02/13/2025 09:52:29 AM) - Mensagem: Well done! Shopping List Challenge Complete! | Tempo de processamento: 1.533 seconds | Acurácia: 100.00%
+(02/13/2025 09:52:29 AM) - Finalizando execução do bot
